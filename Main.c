@@ -7,8 +7,7 @@ int tong_array() {
 	int ketqua = 0;
 	for (int i = 0; i < 10; i++) {
 		printf("please enter a number: ");
-		scanf("%d", &x);
-		arr[i] = x;
+		scanf("%d", &arr[1]);
 		ketqua += x;
 	}
 	return ketqua;
